@@ -41,6 +41,10 @@ span {
   display: grid;
 }
 
+.base-gray-500 {
+  color: var(--base-gray-500);
+}
+
 .main-red {
   color: var(--main-red);
 }
