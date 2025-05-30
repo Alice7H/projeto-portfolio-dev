@@ -34,7 +34,3 @@ body {
   color: var(--base-gray-600);
   font: var(--text-md);
 }
-
-h1, h2, h3, p {
-  font: inherit;
-}

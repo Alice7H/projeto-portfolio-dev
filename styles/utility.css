@@ -76,3 +76,8 @@ span {
   filter: brightness(0) saturate(100%) invert(100%) sepia(60%) saturate(1642%) hue-rotate(179deg) brightness(85%) contrast(90%);
   -webkit-filter: brightness(0) saturate(100%) invert(100%) sepia(60%) saturate(1642%) hue-rotate(179deg) brightness(85%) contrast(90%);
 }
+
+.icon-purple {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(59%) saturate(3711%) hue-rotate(229deg) brightness(94%) contrast(93%);
+  -webkit-filter: brightness(0) saturate(100%) invert(64%) sepia(59%) saturate(3711%) hue-rotate(229deg) brightness(94%) contrast(93%);
+}
