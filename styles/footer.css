@@ -1,0 +1,56 @@
+footer {
+  background: url(../assets/images/Background_Contacts.png) no-repeat center/cover;
+  height: 787px;
+  padding: 128px 120px 200px;
+
+  h2 {
+    margin-block: 8px;
+  }
+
+  ul {
+    margin-top: 48px;
+    gap: 16px;
+
+    li {
+      a {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+
+        width: 400px;
+        background-color: var(--base-gray-300);
+        padding: 20px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        position: relative;
+
+        img {
+          object-fit: cover;
+          width: 28px;
+          height: 28px;
+        }
+
+        span {
+          font: var(--text-md);
+          color: var(--base-gray-500);
+        }
+
+        :last-child {
+          width: 20px;
+          height: 20px;
+          background: url(../assets/icons/ArrowUpRight.svg) no-repeat center/cover;
+          position: absolute;
+          right: 16px;
+        }
+      }
+
+      a:hover img {
+        filter: brightness(0) saturate(100%) invert(48%) sepia(100%) saturate(543%) hue-rotate(175deg) brightness(91%) contrast(87%);
+        -webkit-filter: brightness(0) saturate(100%) invert(48%) sepia(100%) saturate(543%) hue-rotate(175deg) brightness(91%) contrast(87%);
+      }
+    }
+  }
+}
