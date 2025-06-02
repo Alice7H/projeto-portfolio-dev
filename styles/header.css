@@ -35,7 +35,6 @@ header {
   }
 
   .tags {
-    gap: 16px;
     margin-block: 80px 94px;
     color: var(--base-gray-500);
 

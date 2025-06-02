@@ -8,7 +8,6 @@
 
   .cards {
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
 
     .card {
       width: 330px;
@@ -53,7 +52,6 @@
   .cards {
     margin-top: 56px;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
 
     .card {
       width: 280px;
